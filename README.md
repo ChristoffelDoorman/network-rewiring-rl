@@ -1,4 +1,4 @@
-# Instructions for *Dynamic Network Reconfiguration for Entropy Maximization using Deep Reinforcement Learning*
+# Dynamic Network Reconfiguration for Entropy Maximization using Deep Reinforcement Learning
 
 This repository contains the code and models to reproduce the results presented in the article [_Dynamic Network
 Reconfiguration for Entropy Maximization using Deep Reinforcement Learning_](https://openreview.net/pdf?id=-vshFhHpKhX)
