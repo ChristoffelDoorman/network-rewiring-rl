@@ -1,0 +1,7 @@
+{
+  "hyperopt_params": {
+    "learning_rate": 0.001,
+    "max_lv": 3,
+    "latent_dim": 64
+  }
+}
