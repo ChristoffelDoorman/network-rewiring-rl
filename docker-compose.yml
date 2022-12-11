@@ -1,0 +1,24 @@
+version: '2.3'
+services:
+  manager:
+    image: victordarvariu/relnet
+    build:
+      context: .
+      dockerfile: ./docker/relnet/Dockerfile
+      args:
+        RN_GID: ${RN_GID}
+        RN_GNAME: ${RN_GNAME}
+    volumes:
+      - ${RN_SOURCE_DIR}:/relnet
+      - ${RN_EXPERIMENT_DATA_DIR}:/experiment_data
+    ports:
+      - "8888:8888"
+      - "6006:6006"
+    stdin_open: true
+    tty: true
+    container_name: relnet-manager
+    hostname: relnet-manager
+    mem_limit: 16gb
+    environment:
+      - "RN_GID=${RN_GID}"
+      - "RN_GNAME=${RN_GNAME}"
