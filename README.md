@@ -1,7 +1,7 @@
 # Dynamic Network Reconfiguration for Entropy Maximization using Deep Reinforcement Learning
 
 This repository contains the code and models to reproduce the results presented in the article [_Dynamic Network
-Reconfiguration for Entropy Maximization using Deep Reinforcement Learning_](https://openreview.net/pdf?id=-vshFhHpKhX)
+Reconfiguration for Entropy Maximization using Deep Reinforcement Learning_](https://proceedings.mlr.press/v198/doorman22a/doorman22a.pdf)
 by [Christoffel Doorman](https://www.linkedin.com/in/christoffel-doorman-785902156/), [Victor-Alexandru Darvariu](https://victor.darvariu.me), [Stephen Hailes](http://www.cs.ucl.ac.uk/drupalpeople/S.Hailes.html)
 and [Mirco Musolesi](https://mircomusolesi.org), Proceedings of the First Learning on Graphs Conference (LoG 2022), PMLR
 198.
